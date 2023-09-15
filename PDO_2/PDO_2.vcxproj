@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_751|Win32">
+      <Configuration>Debug_751</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_751|x64">
+      <Configuration>Debug_751</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_75|Win32">
+      <Configuration>Release_75</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_75|x64">
+      <Configuration>Release_75</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_80|Win32">
+      <Configuration>Release_80</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_80|x64">
+      <Configuration>Release_80</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Barra.cpp" />
+    <ClCompile Include="Bundle\BMinQuad.cpp" />
+    <ClCompile Include="Bundle\Bundle.cpp" />
+    <ClCompile Include="Bundle\MinQuad.cpp" />
+    <ClCompile Include="Bundle\OsiCpxSolverInterface.cpp" />
+    <ClCompile Include="Bundle\OsiGrbSolverInterface.cpp" />
+    <ClCompile Include="Bundle\OSIMPSolver.cpp" />
+    <ClCompile Include="Bundle\QPPnltMP.cpp" />
+    <ClCompile Include="CallbackED.cpp" />
+    <ClCompile Include="Demanda.cpp" />
+    <ClCompile Include="Hidreletrica.cpp" />
+    <ClCompile Include="Linha.cpp" />
+    <ClCompile Include="MatrizEsparsa.cpp" />
+    <ClCompile Include="Principal.cpp" />
+    <ClCompile Include="Problema_Dec.cpp" />
+    <ClCompile Include="Problema_Dec_Teste.cpp" />
+    <ClCompile Include="Problema_ED.cpp" />
+    <ClCompile Include="Resultados_ED.cpp" />
+    <ClCompile Include="Scndec1ExtDE.cpp" />
+    <ClCompile Include="Scndec1Fi.cpp" />
+    <ClCompile Include="Scndec1Results.cpp" />
+    <ClCompile Include="Scndec1SPC.cpp" />
+    <ClCompile Include="Scndec2ExtDE.cpp" />
+    <ClCompile Include="Scndec2Fi.cpp" />
+    <ClCompile Include="Scndec2Results.cpp" />
+    <ClCompile Include="Scndec2SPC.cpp" />
+    <ClCompile Include="Scndec3ExtDE.cpp" />
+    <ClCompile Include="Scndec3Fi.cpp" />
+    <ClCompile Include="Scndec3Results.cpp" />
+    <ClCompile Include="Scndec3SPC.cpp" />
+    <ClCompile Include="Sistema.cpp" />
+    <ClCompile Include="Spcdec1ExtDE.cpp" />
+    <ClCompile Include="Spcdec1Fi.cpp" />
+    <ClCompile Include="Spcdec1Results.cpp" />
+    <ClCompile Include="Spcdec1SPD.cpp" />
+    <ClCompile Include="Spcdec1SPH.cpp" />
+    <ClCompile Include="Spcdec1SPT.cpp" />
+    <ClCompile Include="Spcdec2ExtDE.cpp" />
+    <ClCompile Include="Spcdec2Fi.cpp" />
+    <ClCompile Include="Spcdec2Results.cpp" />
+    <ClCompile Include="Spcdec2SPD.cpp" />
+    <ClCompile Include="Spcdec2SPH.cpp" />
+    <ClCompile Include="Spcdec2SPT.cpp" />
+    <ClCompile Include="Spcdec3ExtDE.cpp" />
+    <ClCompile Include="Spcdec3Fi.cpp" />
+    <ClCompile Include="Hrstc.cpp" />
+    <ClCompile Include="Spcdec3Results.cpp" />
+    <ClCompile Include="Spcdec3SPD.cpp" />
+    <ClCompile Include="Spcdec3SPHA.cpp" />
+    <ClCompile Include="Spcdec3SPHE.cpp" />
+    <ClCompile Include="Spcdec3SPT.cpp" />
+    <ClCompile Include="Termeletrica.cpp" />
+    <ClCompile Include="Unidades.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Barra.h" />
+    <ClInclude Include="Bundle\BMinQuad.h" />
+    <ClInclude Include="Bundle\Bundle.h" />
+    <ClInclude Include="Bundle\FiOracle.h" />
+    <ClInclude Include="Bundle\MinQuad.h" />
+    <ClInclude Include="Bundle\MPSolver.h" />
+    <ClInclude Include="Bundle\NDOSlver.h" />
+    <ClInclude Include="Bundle\OPTtypes.h" />
+    <ClInclude Include="Bundle\OPTUtils.h" />
+    <ClInclude Include="Bundle\OPTvect.h" />
+    <ClInclude Include="Bundle\OsiCpxSolverInterface.hpp" />
+    <ClInclude Include="Bundle\OsiGrbSolverInterface.hpp" />
+    <ClInclude Include="Bundle\OSIMPSolver.h" />
+    <ClInclude Include="Bundle\QPPnltMP.h" />
+    <ClInclude Include="CallbackED.h" />
+    <ClInclude Include="Demanda.h" />
+    <ClInclude Include="Hidreletrica.h" />
+    <ClInclude Include="Linha.h" />
+    <ClInclude Include="MatrizEsparsa.h" />
+    <ClInclude Include="Problema_Dec.h" />
+    <ClInclude Include="Problema_Dec_Teste.h" />
+    <ClInclude Include="Problema_ED.h" />
+    <ClInclude Include="Resultados_ED.h" />
+    <ClInclude Include="Results.h" />
+    <ClInclude Include="Scndec1ExtDE.h" />
+    <ClInclude Include="Scndec1Fi.h" />
+    <ClInclude Include="Scndec1Results.h" />
+    <ClInclude Include="Scndec1SPC.h" />
+    <ClInclude Include="Scndec2ExtDE.h" />
+    <ClInclude Include="Scndec2Fi.h" />
+    <ClInclude Include="Scndec2Results.h" />
+    <ClInclude Include="Scndec2SPC.h" />
+    <ClInclude Include="Scndec3ExtDE.h" />
+    <ClInclude Include="Scndec3Fi.h" />
+    <ClInclude Include="Scndec3Results.h" />
+    <ClInclude Include="Scndec3SPC.h" />
+    <ClInclude Include="Sistema.h" />
+    <ClInclude Include="Spcdec1ExtDE.h" />
+    <ClInclude Include="Spcdec1Fi.h" />
+    <ClInclude Include="Spcdec1Results.h" />
+    <ClInclude Include="Spcdec1SPD.h" />
+    <ClInclude Include="Spcdec1SPH.h" />
+    <ClInclude Include="Spcdec1SPT.h" />
+    <ClInclude Include="Spcdec2ExtDE.h" />
+    <ClInclude Include="Spcdec2Fi.h" />
+    <ClInclude Include="Spcdec2Results.h" />
+    <ClInclude Include="Spcdec2SPD.h" />
+    <ClInclude Include="Spcdec2SPH.h" />
+    <ClInclude Include="Spcdec2SPT.h" />
+    <ClInclude Include="Spcdec3ExtDE.h" />
+    <ClInclude Include="Spcdec3Fi.h" />
+    <ClInclude Include="Hrstc.h" />
+    <ClInclude Include="Spcdec3Results.h" />
+    <ClInclude Include="Spcdec3SPD.h" />
+    <ClInclude Include="Spcdec3SPHA.h" />
+    <ClInclude Include="Spcdec3SPHE.h" />
+    <ClInclude Include="Spcdec3SPT.h" />
+    <ClInclude Include="Termeletrica.h" />
+    <ClInclude Include="Unidades.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PDO_2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gurobi800\win64\include;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\src;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Visual Leak Detector\include;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\gurobi800\win64\include;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OmitFramePointers>false</OmitFramePointers>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4018;4244;4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Visual Leak Detector\lib\Win64;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\MSVisualStudio\v10\x64-v141-Debug;C:\gurobi800\win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi_c++mtd2017.lib;gurobi80.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_751|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Visual Leak Detector\include;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\gurobi800\win64\include;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OmitFramePointers>false</OmitFramePointers>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4018;4244;4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Visual Leak Detector\lib\Win64;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\MSVisualStudio\v10\x64-v141-Debug;C:\gurobi800\win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi_c++mtd2017.lib;gurobi80.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gurobi800\win64\include;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\src;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4244;4800;4804;4018</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\gurobi800\win64\lib;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\MSVisualStudio\v10\x64-v120-Release;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi80.lib;gurobi_c++mtd2017.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\gurobi800\win64\include;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\src;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4244;4800;4804;4018</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\gurobi800\win64\lib;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI\Clp\Clp\MSVisualStudio\v10\x64-v120-Release;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi80.lib;gurobi_c++mtd2017.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;C:\gurobi800\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4244;4800;4804;4018</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\MSVisualStudio\v10\x64-v141-Release;C:\gurobi800\win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi80.lib;gurobi_c++mtd2017.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_80|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;C:\gurobi800\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4244;4800;4804;4018</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\MSVisualStudio\v10\x64-v141-Release;C:\gurobi800\win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi80.lib;gurobi_c++mtd2017.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_75|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\include\ilcplex;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\include\ilconcert;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\src\OsiClp;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Osi\src\Osi;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\CoinUtils\src;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\PDO_2_1\PDO_2\Bundle;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\Eigen;C:\gurobi751\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4244;4800;4804;4018</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files\IBM\ILOG\CPLEX_Studio125\cplex\lib\x64_windows_vs2010\stat_mtd;C:\Program Files\IBM\ILOG\CPLEX_Studio125\concert\lib\x64_windows_vs2010\stat_mtd;C:\Users\Murilo\Documents\Visual Studio 2013\Projects\OSI2017\Clp\Clp\MSVisualStudio\v10\x64-v141-Release;C:\gurobi751\win64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex125.lib;ilocplex.lib;concert.lib;gurobi75.lib;gurobi_c++mtd2017.lib;libClp.lib;libCoinUtils.lib;libOsi.lib;libOsiClp.lib;libOsiCommonTest.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

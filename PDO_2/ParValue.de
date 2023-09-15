@@ -1,0 +1,38 @@
+############################### File ParValue ###############################
+#                                                                           #
+# Adjust for the Deterministic Equivalent                          					#
+#                                                                           #
+#############################################################################
+
+# flags of model- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# parameters of Gurobi - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1000000	max number of iterations for each call to Solve()
+3600	max time limit (in seconds) for each call to Solve()
+
+1e-0	tStar: stopping parameter
+1e-4	EpsLin: stopping parameter
+
+
+
+# parameters of Main- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+2      verbosity of the Bundle log
+1      verbosity of the FiOracle log
+0      verbosity of the MPSolver log
+
+# parameters of QPPnltMP- - - - - - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+.01	cut-off factor for pricing in MinQuad
+
+0	how many variables can be added to / removed from the base at each
+0	iteration in BMinQuad (0 = at will)
+
+############################# End File ParValue #############################

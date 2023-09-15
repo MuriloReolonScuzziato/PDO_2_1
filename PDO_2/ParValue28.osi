@@ -1,0 +1,76 @@
+############################### File ParValue ###############################
+#                                                                           #
+#                                                                           #
+#############################################################################
+
+# parameters of Bundle- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# parameters of NDOSolver - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+10000	max number of iterations for each call to Solve()
+1200	max time limit (in seconds) for each call to Solve()
+
+1e-0	tStar: stopping parameter
+1e-4	EpsLin: stopping parameter
+
+1e-2	initial (minimal) precision required to the FiOracle
+1e-6	final (maximal) precision required to the FiOracle
+0.95	the precision is multiplied by <this> ...
+0	... every <this> steps (0 = fixed precision)
+
+# parameters of Bundle- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+500	discard items when they have been useless for <this> iterations
+500000	max bundle size
+-1	max n. of items to fetch from Fi() at each iteration
+1	min n. of items to fetch from Fi() at each iteration
+4	first ...
+0	... and second parameter for dynamic max n. of items per iteration
+
+-0.1	m1 parameter: SS if improvement >= | m1 | * ( predicted improvement )
+.9	m3 parameter: if Alfa1 >= m3 * Sigma, decrease t
+
+10	max increase of t
+1.5	min increase of t (each time it is increased)
+0	min number of consecutive SS with the same t for a t increase
+
+.1	max decrease of t
+.66	min decrease of t (each time it is decreased)
+3	min number of consecutive NS with the same t for a t decrease
+
+1e+6	maximum value for t
+1e-8	minimum value for t
+1e-1	initial value for t
+
+12	long-term t-strategy (0 = none, 4 = soft, 8 = hard, 12 = balancing)
+0.01	parameter for the long-term t-strategy
+
+10	pricing parameter: do pricing for the first <this> iterations ...
+0	... and afterwards every <this> iterations (0 ==> no pricing)
+5	remove variables if inactive for <this> consecutive pricings
+
+1e-6	relative "feasibility" precision required to the MPSolver
+1e-6	relative "optimality" precision required to the MPSolver
+
+# parameters of Main- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+2      verbosity of the Bundle log
+1      verbosity of the FiOracle log
+0      verbosity of the MPSolver log
+
+# parameters of Heuristic - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+0.75	alfa : fator de ponderaçao entre a funçao objetivo original e os termos proximais. = [0,1]
+0.5 beta : fator de ponderaçao entre os termos proximais (soluçao da RL e convexificada). = [0,1]
+0.5 gama : fator de ponderaçao dos termos proximais entre variáveis continuas e binárias. = [0,1]
+1	norma dos termos proximais, norma 1 (linear) ou 2 (quadratica)
+1	with (1) or without (0) Benders
+0	cortes iniciais : Usar (1) ou não (0) cortes do modelo Estendido (continuo, linear) na iteração 0 da heuristica
+1	numero de iterações da heuristica a cada iteração do bundle
+1	numero de iterações da heuristica ao final do bundle
+1 numeros de periodos por subproblema
+1 tempo relativo (int) para cada subp. // means that I give to each subproblem (TIME_R x total running time) / n. of subproblems
+
+############################# End File ParValue #############################

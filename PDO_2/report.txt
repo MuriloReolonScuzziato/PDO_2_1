@@ -1,0 +1,31 @@
+log_4_1_1.bn : Time_NDO:	97.281	Time_SmartStart:	18.936	Time_Fi:	94.855	Time_Hrtcs:	2.337	Time_MP:	0.066	Niter:	2	Optimal Heuristic:	106834869.2	Status: OK, Value:	191026465.5311906
+log_4_1_1.bn : Time_NDO:	95.131	Time_SmartStart:	18.673	Time_Fi:	92.682	Time_Hrtcs:	2.384	Time_MP:	0.04	Niter:	2	Optimal Heuristic:	115834854.9	Status: OK, Value:	191026465.5311906
+log_4_1_1.bn : Time_NDO:	94.3	Time_SmartStart:	19.227	Time_Fi:	91.896	Time_Hrtcs:	2.336	Time_MP:	0.04	Niter:	2	Optimal Heuristic:	115834854.9	Status: OK, Value:	191026465.5311906
+log_4_1_1.bn : Time_NDO:	96.746	Time_SmartStart:	18.818	Time_Fi:	94.301	Time_Hrtcs:	2.377	Time_MP:	0.041	Niter:	2	Optimal Heuristic:	111991764.3	Status: OK, Value:	191026465.5311906
+log_4_1_1.bn : Time_NDO:	95.53	Time_SmartStart:	18.625	Time_Fi:	93.134	Time_Hrtcs:	2.331	Time_MP:	0.039	Niter:	2	Optimal Heuristic:	113276286.3	Status: OK, Value:	191035642.0328435
+log_4_1_1.bn : Time_NDO:	97.917	Time_SmartStart:	18.742	Time_Fi:	95.506	Time_Hrtcs:	2.333	Time_MP:	0.038	Niter:	2	Optimal Heuristic:	106834869.2	Status: OK, Value:	191026465.5311906
+log_4_1_1.bn : Time_NDO:	2446.184	Time_SmartStart:	18.903	Time_Fi:	2282.152	Time_Hrtcs:	147.344	Time_MP:	15.666	Niter:	46	Optimal Heuristic:	346747694.5	Status: kStpTime, Value:	192442137.1353983
+log_1_1_1.bn : Cont. Relaxation:	126916126.3	Time_NDO:	594.752	Time_SmartStart:	3.469	Time_Fi:	251.872	Time_Hrtcs:	0	Time_MP:	67.007	Niter:	255	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	130151546.5283812
+log_4_1_127.bn : Cont. Relaxation:	5021460.234	Time_NDO:	505.259	Time_SmartStart:	109.312	Time_Fi:	505.123	Time_Hrtcs:	0	Time_MP:	0.089	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	10123819.44419067
+log_4_1_127.bn : Time_NDO:	738.487	Time_SmartStart:	161.65	Time_Fi:	738.374	Time_Hrtcs:	0	Time_MP:	0.077	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	8032687.023031524
+log_4_1_127.bn : Time_NDO:	746.775	Time_SmartStart:	152.521	Time_Fi:	746.666	Time_Hrtcs:	0	Time_MP:	0.08	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	8032687.023031524
+log_4_1_127.bn : Cont. Relaxation:	3438590.538	Time_NDO:	700.546	Time_SmartStart:	120.724	Time_Fi:	700.403	Time_Hrtcs:	0	Time_MP:	0.109	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	7998364.130723476
+log_4_1_127.bn : Time_NDO:	580.496	Time_SmartStart:	17.777	Time_Fi:	580.373	Time_Hrtcs:	0	Time_MP:	0.094	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	8040685.949661832
+log_4_1_127.bn : Time_NDO:	709.297	Time_SmartStart:	136.7	Time_Fi:	709.191	Time_Hrtcs:	0	Time_MP:	0.084	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	8032687.023031524
+log_4_1_127.bn : Time_NDO:	5.129	Time_SmartStart:	2.763	Time_Fi:	5.119	Time_Hrtcs:	0	Time_MP:	0.005	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	1623229.115385701
+log_4_1_127.bn : Time_NDO:	18.102	Time_SmartStart:	136.091	Time_Fi:	17.967	Time_Hrtcs:	0	Time_MP:	0.103	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	3399201.978157221
+log_4_1_127.bn : Time_NDO:	23.447	Time_SmartStart:	6.808	Time_Fi:	23.407	Time_Hrtcs:	0	Time_MP:	0.017	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	2737474.663214014
+log_4_1_127.bn : Time_NDO:	24.067	Time_SmartStart:	6.787	Time_Fi:	24.051	Time_Hrtcs:	0	Time_MP:	0.006	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	2734218.281927675
+log_4_1_127.bn : Time_NDO:	23.099	Time_SmartStart:	722.472	Time_Fi:	23.082	Time_Hrtcs:	0	Time_MP:	0.008	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	2737474.663214014
+log_4_1_127.bn : Time_NDO:	28.832	Time_SmartStart:	7.019	Time_Fi:	28.804	Time_Hrtcs:	0	Time_MP:	0.018	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	2737474.663214014
+log_4_1_127.bn : Time_NDO:	16.531	Time_SmartStart:	3.085	Time_Fi:	16.515	Time_Hrtcs:	0	Time_MP:	0.008	Niter:	1	Optimal Heuristic:	1.797693135e+308	Status: Stopped, Value:	2932311.947105826
+log_1_1_1.bn : Cont. Relaxation:	112341600.9	Time_NDO:	30.248	Time_SmartStart:	2.766	Time_Fi:	12.828	Time_Hrtcs:	0	Time_MP:	6.454	Niter:	16	Optimal Heuristic:	1.797693135e+308	Status: kStpTime, Value:	113117426.4830126
+log_1_1_1.bn : Cont. Relaxation:	112341600.9	Time_NDO:	60.434	Time_SmartStart:	2.454	Time_Fi:	29.857	Time_Hrtcs:	0	Time_MP:	13.084	Niter:	36	Optimal Heuristic:	1.797693135e+308	Status: kStpTime, Value:	113198544.5751119
+log_1_1_1.bn : Cont. Relaxation:	112341601	Time_NDO:	60.228	Time_SmartStart:	1.437	Time_Fi:	39.147	Time_Hrtcs:	0	Time_MP:	18.58	Niter:	37	Optimal Heuristic:	1.797693135e+308	Status: kStpTime, Value:	113101501.2153814
+log_1_1_1.bn : Cont. Relaxation:	112341600.9	Time_NDO:	62.173	Time_SmartStart:	1.437	Time_Fi:	50.082	Time_Hrtcs:	0	Time_MP:	9.729	Niter:	28	Optimal Heuristic:	1.797693135e+308	Status: kStpTime, Value:	113124553.8001449
+log_4_1_1.bn : Cont. Relaxation:	128625.0489	Time_NDO:	71.162	Time_SmartStart:	24.272	Time_Fi:	15.045	Time_Hrtcs:	7.72	Time_MP:	9.386	Niter:	3	Optimal Heuristic:	84730133.46	Status: kStpTime, Value:	177688.6391840958
+log_4_1_1.bn : Cont. Relaxation:	128625.0489	Time_NDO:	86.27	Time_SmartStart:	18.93	Time_Fi:	45.946	Time_Hrtcs:	10.098	Time_MP:	2.998	Niter:	2	Optimal Heuristic:	84730133.46	Status: kStpTime, Value:	177688.6391840958
+log_1_1_1.bn : Cont. Relaxation:	143428.2429	Time_NDO:	73.549	Time_SmartStart:	5.3	Time_Fi:	48.391	Time_Hrtcs:	12.527	Time_MP:	2.57	Niter:	4	Optimal Heuristic:	65542354.22	Status: kStpTime, Value:	503463.5099363172
+log_1_1_1.bn : Cont. Relaxation:	143428.2429	Time_NDO:	73.34	Time_SmartStart:	5.203	Time_Fi:	47.419	Time_Hrtcs:	12.973	Time_MP:	2.612	Niter:	4	Optimal Heuristic:	65542354.22	Status: kStpTime, Value:	503463.5099363172
+log_1_1_1.bn : Cont. Relaxation:	143428.2429	Time_NDO:	66.603	Time_SmartStart:	8.762	Time_Fi:	26.519	Time_Hrtcs:	22.932	Time_MP:	2.923	Niter:	5	Optimal Heuristic:	46032632.76	Status: kStpTime, Value:	626965.2171345917
+log_1_1_1.bn : Cont. Relaxation:	143428.2429	Time_NDO:	62.963	Time_SmartStart:	8.772	Time_Fi:	22.315	Time_Hrtcs:	23.303	Time_MP:	2.938	Niter:	5	Optimal Heuristic:	46032632.76	Status: kStpTime, Value:	626965.2171345917

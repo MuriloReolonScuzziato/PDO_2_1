@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PDO_2", "PDO_2\PDO_2.vcxproj", "{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_751|Win32 = Debug_751|Win32
+		Debug_751|x64 = Debug_751|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release_75|Win32 = Release_75|Win32
+		Release_75|x64 = Release_75|x64
+		Release_80|Win32 = Release_80|Win32
+		Release_80|x64 = Release_80|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug_751|Win32.ActiveCfg = Debug_751|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug_751|Win32.Build.0 = Debug_751|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug_751|x64.ActiveCfg = Debug_751|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug_751|x64.Build.0 = Debug_751|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug|Win32.Build.0 = Debug|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug|x64.ActiveCfg = Debug|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Debug|x64.Build.0 = Debug|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_75|Win32.ActiveCfg = Release_75|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_75|Win32.Build.0 = Release_75|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_75|x64.ActiveCfg = Release_75|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_75|x64.Build.0 = Release_75|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_80|Win32.ActiveCfg = Release_80|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_80|Win32.Build.0 = Release_80|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_80|x64.ActiveCfg = Release_80|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release_80|x64.Build.0 = Release_80|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release|Win32.ActiveCfg = Release|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release|Win32.Build.0 = Release|Win32
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release|x64.ActiveCfg = Release|x64
+		{BC20669C-0A83-4DAC-B107-A9FBCF5E602C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC548E9-A070-43BB-8BD6-6F2F0BF7A616}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SpcDec3">
+      <UniqueIdentifier>{1960d463-7a19-420c-8d08-6f83fce217db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpcDec2">
+      <UniqueIdentifier>{a29c5ca9-623d-45bc-a721-64fe3cbba6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpcDec1">
+      <UniqueIdentifier>{42ffef09-bbab-4e73-b750-c535f6fa563d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScnDec2">
+      <UniqueIdentifier>{8708d4f4-b870-4e5f-baee-d9a60ce41819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bundle">
+      <UniqueIdentifier>{ec892cdf-71e6-4304-938b-3b506e28e5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScnDec1">
+      <UniqueIdentifier>{34afe39f-2ab4-49d8-bb13-3cdd1e319bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sistema">
+      <UniqueIdentifier>{987f6e21-0647-4b9b-bc98-9636ab69fb11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ED">
+      <UniqueIdentifier>{ad97d689-3b0a-4908-9a56-39eb9228fa80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sistema">
+      <UniqueIdentifier>{ad4c6968-10ed-4012-a209-c788b66f144f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpcDec2">
+      <UniqueIdentifier>{4c72ff53-6417-450b-97fa-df2eea17d6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpcDec1">
+      <UniqueIdentifier>{dce91e40-74bf-4cf6-ba6d-3c9e3355469e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScnDec2">
+      <UniqueIdentifier>{d12665fd-ad83-47d3-ba55-c0be5819c6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScnDec1">
+      <UniqueIdentifier>{8aecd8c1-aab4-4bcf-a31c-3cbff53cee4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ED">
+      <UniqueIdentifier>{8239035f-7d86-4639-89d4-6df72fb9cc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bundle">
+      <UniqueIdentifier>{c3f1822f-4b75-498b-8121-7c16ff5f68ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScnDec3">
+      <UniqueIdentifier>{51547545-ad93-48a9-abea-c10015d320eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScnDec3">
+      <UniqueIdentifier>{26168407-cfd1-47e1-b680-f39ab2757d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpcDec3">
+      <UniqueIdentifier>{06461357-b8cd-4161-bea5-c4f53d7dff9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Principal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problema_Dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problema_Dec_Teste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3SPT.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3ExtDE.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3Fi.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3Results.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3SPD.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3SPHA.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec3SPHE.cpp">
+      <Filter>Source Files\SpcDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec2SPT.cpp">
+      <Filter>Source Files\SpcDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec2ExtDE.cpp">
+      <Filter>Source Files\SpcDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec2Fi.cpp">
+      <Filter>Source Files\SpcDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec2Results.cpp">
+      <Filter>Source Files\SpcDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec2SPD.cpp">
+      <Filter>Source Files\SpcDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec2SPH.cpp">
+      <Filter>Source Files\SpcDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec1SPT.cpp">
+      <Filter>Source Files\SpcDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec1ExtDE.cpp">
+      <Filter>Source Files\SpcDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec1Fi.cpp">
+      <Filter>Source Files\SpcDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec1Results.cpp">
+      <Filter>Source Files\SpcDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec1SPD.cpp">
+      <Filter>Source Files\SpcDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Spcdec1SPH.cpp">
+      <Filter>Source Files\SpcDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec2SPC.cpp">
+      <Filter>Source Files\ScnDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec2ExtDE.cpp">
+      <Filter>Source Files\ScnDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec2Fi.cpp">
+      <Filter>Source Files\ScnDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec2Results.cpp">
+      <Filter>Source Files\ScnDec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec1SPC.cpp">
+      <Filter>Source Files\ScnDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec1ExtDE.cpp">
+      <Filter>Source Files\ScnDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec1Fi.cpp">
+      <Filter>Source Files\ScnDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec1Results.cpp">
+      <Filter>Source Files\ScnDec1</Filter>
+    </ClCompile>
+    <ClCompile Include="Resultados_ED.cpp">
+      <Filter>Source Files\ED</Filter>
+    </ClCompile>
+    <ClCompile Include="Problema_ED.cpp">
+      <Filter>Source Files\ED</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackED.cpp">
+      <Filter>Source Files\ED</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\BMinQuad.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\Bundle.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\MinQuad.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\OsiCpxSolverInterface.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\OsiGrbSolverInterface.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\OSIMPSolver.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle\QPPnltMP.cpp">
+      <Filter>Source Files\Bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="Linha.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Barra.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Demanda.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Hidreletrica.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Unidades.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Termeletrica.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema.cpp">
+      <Filter>Source Files\Sistema</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrizEsparsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec3ExtDE.cpp">
+      <Filter>Source Files\ScnDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec3Fi.cpp">
+      <Filter>Source Files\ScnDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec3Results.cpp">
+      <Filter>Source Files\ScnDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Scndec3SPC.cpp">
+      <Filter>Source Files\ScnDec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Hrstc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problema_Dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problema_Dec_Teste.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3ExtDE.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3SPT.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3Fi.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3Results.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3SPD.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3SPHA.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec3SPHE.h">
+      <Filter>Header Files\SpcDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec2SPT.h">
+      <Filter>Header Files\SpcDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec2ExtDE.h">
+      <Filter>Header Files\SpcDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec2Fi.h">
+      <Filter>Header Files\SpcDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec2Results.h">
+      <Filter>Header Files\SpcDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec2SPD.h">
+      <Filter>Header Files\SpcDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec2SPH.h">
+      <Filter>Header Files\SpcDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec1SPT.h">
+      <Filter>Header Files\SpcDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec1ExtDE.h">
+      <Filter>Header Files\SpcDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec1Fi.h">
+      <Filter>Header Files\SpcDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec1Results.h">
+      <Filter>Header Files\SpcDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec1SPD.h">
+      <Filter>Header Files\SpcDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Spcdec1SPH.h">
+      <Filter>Header Files\SpcDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec2SPC.h">
+      <Filter>Header Files\ScnDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec2ExtDE.h">
+      <Filter>Header Files\ScnDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec2Fi.h">
+      <Filter>Header Files\ScnDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec2Results.h">
+      <Filter>Header Files\ScnDec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec1SPC.h">
+      <Filter>Header Files\ScnDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec1ExtDE.h">
+      <Filter>Header Files\ScnDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec1Fi.h">
+      <Filter>Header Files\ScnDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec1Results.h">
+      <Filter>Header Files\ScnDec1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\BMinQuad.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\Bundle.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\FiOracle.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\MinQuad.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\MPSolver.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\NDOSlver.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\OPTtypes.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\OPTUtils.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\OPTvect.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\OsiCpxSolverInterface.hpp">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\OsiGrbSolverInterface.hpp">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\OSIMPSolver.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle\QPPnltMP.h">
+      <Filter>Header Files\Bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="Barra.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Demanda.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Hidreletrica.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Linha.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Sistema.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Termeletrica.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Unidades.h">
+      <Filter>Header Files\Sistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Resultados_ED.h">
+      <Filter>Header Files\ED</Filter>
+    </ClInclude>
+    <ClInclude Include="Problema_ED.h">
+      <Filter>Header Files\ED</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackED.h">
+      <Filter>Header Files\ED</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrizEsparsa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec3ExtDE.h">
+      <Filter>Header Files\ScnDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec3Fi.h">
+      <Filter>Header Files\ScnDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec3Results.h">
+      <Filter>Header Files\ScnDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Scndec3SPC.h">
+      <Filter>Header Files\ScnDec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Hrstc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Results.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
