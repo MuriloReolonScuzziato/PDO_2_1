@@ -164,7 +164,7 @@ int main()
 	char *entr2 = "0";		// flag_vfol (antigo v_meta)		// em alguns casos com =0 o método de resolução do ed pode influencia no resultado: casosgrb_intparam_method in problema_ed_ext
 	char *entr3 = "0";		// flag_phmax (antigo valor_agua)	// se =0 para algumas decomposições entao relaxa-se a restrição de reserva girante
 	char *entr4 = "10";		// number of initial linear cuts for the thermal cost function
-	char *entr5 = "1";		// binary variables: 0 continuous; 1 binary; 2 for only thermal binary variables
+	char *entr5 = "1";		// binary variables: 0 continuous; 1 binary; 2 for only thermal binary variables;
 	char *entr6 = "1";		// 0 use least-square approximantion, 1 use perspective-cut formulation, 2 perspective-cut formulation dynamically (entr4 is the initial number of cuts (2 <= entr4 <= entr6), and entr6 is the maximum number of cuts that can be added)
 	char *entr7 = "1";		// the binary variables of the thermal units: 0 old model; 1 modern model (tight and compact milp formulation for the thermal uc problem). 
 	char *entr8 = "";		// caso (pasta) dos dados e resultados: "A/", "B/",...
